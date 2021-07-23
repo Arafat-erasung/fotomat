@@ -1,0 +1,301 @@
+/* reseting browser margin and padding to 0 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*landing page header */
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+}
+
+
+/* navigation bar style */
+
+nav ul {
+    list-style-type: none;
+}
+
+
+/* navigation bar list items */
+
+nav ul li {
+    float: right;
+}
+
+
+/* navigation bar list items and links */
+
+nav ul li a {
+    display: block;
+    color: #4A4A4A;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Roboto';
+}
+
+
+/* company name fotomat */
+
+.logo {
+    font-family: 'Roboto';
+    color: #4A4A4A;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+
+/* includes whole page content */
+
+.main-content-area {
+    overflow: hidden;
+}
+
+
+/* top container */
+
+.main-container {
+    background-image: url("images/banner-landingpage.jpg");
+    height: 700px;
+}
+
+.main-container img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* card sign up */
+
+.banner {
+    background-color: #9dc20a;
+    position: relative;
+    top: 170px;
+    left: 10%;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #979797;
+    width: 600px;
+    height: 400px;
+}
+
+
+/* email text */
+
+.banner p {
+    margin-top: 12px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+
+/* card heading instant */
+
+.ist {
+    margin-top: 32px;
+    font-family: 'Damion', cursive;
+    text-align: center;
+}
+
+
+/* card second heading format camera */
+
+.for {
+    font-size: 50px;
+    font-family: 'Rubik';
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* card button "join the waiting list" */
+
+.btn {
+    width: 408px;
+    height: 64px;
+    background-color: #4A4A4A;
+    border-radius: 4px;
+    position: absolute;
+    left: 15%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: 'Roboto';
+    margin-top: 26px;
+    margin-bottom: 56px;
+}
+
+
+/* sub-container */
+
+.sub-container {
+    background-color: #ece4e4;
+    min-height: 750px;
+}
+
+
+/* row containing the two images */
+
+.row {
+    display: flex;
+    position: relative;
+    left: 3%;
+}
+
+
+/* column styling for image 1 */
+
+.col-1 {
+    height: 635px;
+    width: 450px;
+    margin-top: 64px;
+    margin-right: 19px;
+    background-color: #fff;
+}
+
+
+/* column styling for image 2 */
+
+.col-2 {
+    height: 635px;
+    width: 450px;
+    margin-top: 64px;
+    margin-left: 19px;
+    background-color: #fff;
+}
+
+
+/* column image-1 */
+
+.col-1 img {
+    padding: 32px 32px 0 32px;
+    width: 85%;
+    height: 50%;
+}
+
+
+/* column image-2 */
+
+.col-2 img {
+    padding: 32px 32px 0 32px;
+    width: 85%;
+    height: 50%;
+}
+
+
+/* text styling for h4 element in card */
+
+.row h4 {
+    margin-top: 40px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+
+/* text styling for p element in card */
+
+.row p {
+    color: #4a4a4a;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+
+/* text styling for p element in card 1 */
+
+.col-1 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* text styling for p element in card 2 */
+
+.col-2 p {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.sub-container-1 {
+    background-color: #585454ec;
+}
+
+.row-head h3 {
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 36px;
+    opacity: 100%;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.row-head p {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.row-1 {
+    display: inline-flex;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.row-1 img {
+    width: 247px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.end-note p {
+    color: #4a4a4a;
+    font-family: 'Palatino';
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1.1;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+span img {
+    margin-left: 30px;
+}
+
+#footer {
+    height: 62px;
+    background-color: #979797;
+    font-size: 12px;
+    font-family: 'Roboto';
+    line-height: 1.1;
+    color: #fff;
+}
+
+#footer h5 {
+    margin-left: 32px;
+    padding-top: 20px;
+}
+
+#footer p {
+    text-align: right;
+    margin-right: 32px;
+}
